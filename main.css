@@ -1,0 +1,128 @@
+
+
+body{
+    background-image: -webkit-linear-gradient(right, rgb(1, 12, 20), rgb(6, 16, 24), rgb(10, 21, 29));
+
+  
+}
+
+nav #myNavbar{
+    justify-content: right;
+}
+
+nav .navbar-brand{
+    font-size: 40px;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    font-size: 20px;
+}
+.parent{
+    position: relative;
+    color: rgb(193,154,107);
+    font-weight: bold;
+    font-size: 20px;
+    min-height:200px;
+        background-image: url('background5.1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left;
+    min-width: 50px;
+    border: 1px thistle solid;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 50px auto;
+    height: 500px ;
+}
+.settings{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+.select-category select {
+     color: white;
+     background-color: transparent;
+     border-radius: 5px;
+    
+    
+}
+option{
+    background-color: rgb(193,154,107);
+}
+#nquestion{
+    border-radius: 5px;
+
+    color: white;
+}
+.settings #start{
+    margin: auto;
+}
+
+
+#start{
+  background-color: rgb(193,154,107);
+  color: white;
+  font-weight: bold;
+}
+footer{
+    border-radius: 5px;
+    border-top: 1px white solid;
+    padding: 20px 0 0;
+    margin-top: 250px;
+}
+
+footer .box h3{
+    font-size: 30px ;
+    color: white;
+    margin: -11px 0 20px;
+}
+footer .box .social{
+    display: flex;
+    padding-left: 0;
+}
+footer .box .social  li{
+margin-right: 10px;
+}
+footer .box .social  .facebook:hover{
+    background-color: #1877f2;
+}
+footer .box .social  .twitter:hover{
+background-color: #1da1f2;
+}
+footer .box .social  .youtube:hover{
+    background-color: #ff0000;
+}
+footer .box .social  li a{
+    background-color: rgb(193,154,107);;
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px ;
+    transition: var(--maintransition);
+}
+footer .box .text{
+    line-height: 2;
+    color: white;
+}
+footer .box .line{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-bottom: 30px;
+}
+footer .box .line i{
+    color: var(--maincolor);
+    font-size: 25px;
+    margin-right: 10px;
+}
+footer .box .line .info{
+    line-height: 1.7;
+    flex: 1;
+}
+footer .box .line  .info span{
+    display: block;
+}
